@@ -1,267 +1,369 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>StayWorld</title>
-    <meta name="description" content="This site is a test site.">
-    <link rel="icon" href="images/favicon.png">
-    <link rel="stylesheet" href="styles/loader.css">
-    <script src="scripts/vendors/pace.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
-    <link rel="stylesheet" href="styles/vendors/swiper.min.css" />
-    <link rel="stylesheet" href="styles/style.css" />
-  </head>
-  <body>
-    <div id="global-container">
-      <div id="container">
-        <div class="mobile-menu__cover"></div>
-        <div class="nav-trigger"></div>
-        <header class="header">
-          <div class="header__inner appear up">
-            <div class="logo item">
-              <img src="images/logo.png" alt="" />
-            </div>
-            <nav class="header__nav">
-              <ul class="header__ul">
-                <li class="header__li item"><a href="#">Service</a></li>
-                <li class="header__li item"><a href="#">Company</a></li>
-                <li class="header__li item">
-                  <a class="btn filled" href="#">Contact</a>
-                </li>
-              </ul>
-            </nav>
-            <button class="mobile-menu__btn">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>TEDxNagoyaU2022イベントサイト</title>
+  <meta name="description" content="This site is a test site.">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="styles/loader.css">
+  <script src="scripts/vendors/pace.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
+  <link rel="stylesheet" href="styles/vendors/swiper.min.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="global-container">
+    <div id="container">
+      <div class="mobile-menu__cover"></div>
+      <div class="nav-trigger"></div>
+      <header class="header">
+        <div class="header__inner appear up">
+          <div class="logo item">
+            <img src="images/logo.png" alt="" />
           </div>
-        </header>
-        <div id="content">
-          <div class="hero">
-            <div class="swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <img src="images/image-1.jpg" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="images/image-2.jpg" alt="" />
-                </div>
-                <div class="swiper-slide">
-                  <img src="images/image-3.jpg" alt="" />
-                </div>
+          <nav class="header__nav">
+            <ul class="header__ul">
+              <li class="header__li item"><a href="#speaker">スピーカー情報</a></li>
+              <li class="header__li item"><a href="#date-place">開催日時・場所</a></li>
+              <li class="header__li item">
+                <a class="btn filled" href="#">お申し込みはこちらから</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="mobile-menu__btn">
+            <!-- <span></span>
+            <span></span>
+            <span></span> -->
+          </button>
+        </div>
+      </header>
+      <div id="content">
+        <div class="hero">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/image-1.jpg" alt="" />
               </div>
-              <div class="hero__footer">
-                <img class="hero__downarrow" src="images/arrow.svg" />
-                <span class="hero__scrolltext">scroll</span>
+              <div class="swiper-slide">
+                <img src="images/image-2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/image-3.jpg" alt="" />
               </div>
             </div>
+            <div class="hero__footer">
+              <img class="hero__downarrow" src="images/arrow.svg" />
+              <span class="hero__scrolltext">scroll</span>
+            </div>
           </div>
-          <div id="main-content">
-            <aside class="side left">
-              <div class="side__inner">
-                <a class="twitter icon tween-animate-title" href="https://twitter.com/TEDxNagoyaU?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
-                <a class="fb icon tween-animate-title" href="https://www.instagram.com/tedxnagoyau/">Instagram</a>
-              </div>
-            </aside>
-            <main>
-              <section class="travel">
-                <div class="travel__inner">
-                  <div class="travel__img cover-slide">
-                    <img
-                      class="img-zoom"
-                      src="images/image-travel.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="travel__texts appear left">
-                    <div class="travel__texts-inner">
-                      <div class="travel__title main-title item">
-                        <span>共鳴</span>
-                        <span>〜Resonance〜</span>
-                      </div>
-                      <br>
-                      <div class="travel__description item">
-                        <!-- <p>
+        </div>
+        <div id="main-content">
+          <aside class="side left">
+            <div class="side__inner">
+              <a class="twitter icon tween-animate-title"
+                href="https://twitter.com/TEDxNagoyaU?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+              <a class="fb icon tween-animate-title" href="https://www.instagram.com/tedxnagoyau/">Instagram</a>
+            </div>
+          </aside>
+          <main>
+            <h1 style="text-align: center; font-family: Rockwell">TEDxNagoyaU2022</h1>
+            <h1 style="text-align: center; font-family: Rockwell; margin-bottom: 7rem">メインイベントを開催します！</h1>
+            <section class="travel">
+              <div class="travel__inner">
+                <div class="travel__img cover-slide">
+                  <img class="img-zoom" src="images/image-mainivent-promotion.jpg" alt="" />
+                </div>
+                <div class="travel__texts appear left">
+                  <div class="travel__texts-inner">
+                    <div class="travel__title main-title item">
+                      <span>共鳴</span>
+                      <span>〜Resonance〜</span>
+                    </div>
+                    <br>
+                    <div class="travel__description item">
+                      <!-- <p>
                           世界１５０ヶ国で<br />利用できる民泊サービスです。
                         </p>
                         <p>あなたの望む宿がきっと見つかります。</p> -->
-                        <p>今年のテーマは「共鳴〜Resonance」</p>
-                        <p>イベントで奏でたアイディアの波が広がってほしいという想いが込められています。</p>
-                      </div>
-                      <div class="travel__btn item">
-                        <button class="btn filled">イベントに参加する</button>
-                      </div>
+                      <p>今年のテーマは「共鳴〜Resonance」</p>
+                      <p>イベントで奏でたアイディアの波が広がってほしいという想いが込められています。</p>
+                    </div>
+                    <div class="travel__btn item">
+                      <button class="btn filled">イベントに参加する</button>
                     </div>
                   </div>
                 </div>
-              </section>
-              <section class="houses">
-                <div>
-                  <h2 class="main-title tween-animate-title">Find Your House</h2>
-                  <p class="sub-title tween-animate-title">お気に入りの宿泊先を見つけましょう</p>
-                </div>
-                <div class="houses__inner">
-                  <div class="houses__item">
-                    <div class="cover-slide hover-darken">
-                      <div
-                        class="bg-img-zoom img-bg50"
-                        style="background-image: url(images/villa-1.jpg)"
-                      ></div>
-                    </div>
-                    <p class="houses__title">House 1</p>
-                  </div>
-                  <div class="houses__item">
-                    <div class="cover-slide hover-darken">
-                      <div
-                        class="bg-img-zoom img-bg50"
-                        style="background-image: url(images/villa-2.jpg)"
-                      ></div>
-                    </div>
-                    <p class="houses__title">House 2</p>
-                  </div>
-                  <div class="houses__item">
-                    <div class="cover-slide hover-darken">
-                      <div
-                        class="bg-img-zoom img-bg50"
-                        style="background-image: url(images/villa-3.jpg)"
-                      ></div>
-                    </div>
-                    <p class="houses__title">House 3</p>
-                  </div>
-                  <div class="houses__item">
-                    <div class="cover-slide hover-darken">
-                      <div
-                        class="bg-img-zoom img-bg50"
-                        style="background-image: url(images/villa-4.jpg)"
-                      ></div>
-                    </div>
-                    <p class="houses__title">House 4</p>
-                  </div>
-                  <div class="houses__item">
-                    <div class="cover-slide hover-darken">
-                      <div
-                        class="bg-img-zoom img-bg50"
-                        style="background-image: url(images/villa-5.jpg)"
-                      ></div>
-                    </div>
-                    <p class="houses__title">House 5</p>
-                  </div>
-                  <div class="houses__item">
-                    <div class="cover-slide hover-darken">
-                      <div
-                        class="bg-img-zoom img-bg50"
-                        style="background-image: url(images/villa-6.jpg)"
-                      ></div>
-                    </div>
-                    <p class="houses__title">House 6</p>
-                  </div>
-                  <div class="houses__btn appear up">
-                    <button class="btn slide-bg item">もっと詳しく</button>
-                  </div>
-                </div>
-              </section>
-              <section class="popular">
-                <div class="popular__header">
-                  <h2 class="main-title tween-animate-title">Popular Place</h2>
-                  <p class="sub-title tween-animate-title">人気の観光地で宿泊先を見つけましょう</p>
-                </div>
-                <div class="popular__inner appear up">
-                  <div class="popular__container">
-                    <div class="popular__item item">
-                      <div class="popular__img">
-                        <img src="images/image-p1.jpg" alt="" />
-                      </div>
-                      <div class="popular__title">パリ</div>
-                    </div>
-                    <div class="popular__item item">
-                      <div class="popular__img">
-                        <img src="images/image-p2.jpg" alt="" />
-                      </div>
-                      <div class="popular__title">ニューヨーク</div>
-                    </div>
-                    <div class="popular__item item">
-                      <div class="popular__img">
-                        <img src="images/image-p3.jpg" alt="" />
-                      </div>
-                      <div class="popular__title">香港</div>
-                    </div>
-                    <div class="popular__item item">
-                      <div class="popular__img">
-                        <img src="images/image-p4.jpg" alt="" />
-                      </div>
-                      <div class="popular__title">大阪</div>
-                    </div>
-                    <div class="popular__btn appear up">
-                      <button class="btn cover-3d item">
-                        <span>
-                          一覧から探す
-                        </span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </main>
-            <aside class="side right">
-              <div class="side__inner">
-                <span class="tween-animate-title">&copy;Code Mafia</span>
               </div>
-            </aside>
-          </div>
+            </section>
+            <section class="houses">
+              <div>
+                <h2 id="speaker" class="main-title tween-animate-title">2022 スピーカー</h2>
+                <p class="sub-title tween-animate-title"></p>
+              </div>
+              <div class="houses__inner">
+                <!-- <div class="houses__item">
+                  <div class="cover-slide hover-darken">
+                    <div class="bg-img-zoom img-bg50" style="background-image: url(images/柴田莉奈さん.jpg)"></div>
+                  </div>
+                  <p style="margin-top: 1rem" class="houses__title">「出会いは人生の財産」〜笑顔の連鎖が私の成長の源〜</p>
+                  <p style="font-size: 0.9rem">柴田莉奈</p>
+                </div>
+                <div class="houses__item">
+                  <div class="cover-slide hover-darken">
+                    <div class="bg-img-zoom img-bg50" style="background-image: url(images/風間孝さん.jpg)"></div>
+                  </div>
+                  <p style="margin-top: 1rem" class="houses__title">「性の多様性と特権」</p>
+                  <p style="font-size: 0.9rem;">風間孝</p>
+                </div>
+                <div class="houses__item">
+                  <div class="cover-slide hover-darken">
+                    <div class="bg-img-zoom img-bg50" style="background-image: url(images/出石桂子さん.jpg)"></div>
+                  </div>
+                  <p style="margin-top: 1rem" class="houses__title">「Come to the edge -夢を叶える!」</p>
+                  <p style="font-size: 0.9rem">出石桂子</p>
+                </div>
+                <div class="houses__item">
+                  <div class="cover-slide hover-darken">
+                    <div class="bg-img-zoom img-bg50" style="background-image: url(images/原田慎也さん.jpg)"></div>
+                  </div>
+                  <p style="margin-top: 1rem" class="houses__title">「You and I have some of potential disabilities.」</p>
+                  <p style="font-size: 0.9rem">原田慎也</p>
+                </div>
+                <div class="houses__item">
+                  <div class="cover-slide hover-darken">
+                    <div class="bg-img-zoom img-bg50" style="background-image: url(images/安藤美玖さん.jpg)"></div>
+                  </div>
+                  <p style="margin-top: 1rem" class="houses__title">「すべてを失って気づいた、幸せに生きるために大切なこと」</p>
+                  <p style="font-size: 0.9rem">安藤美玖</p>
+                </div> -->
+                <div class="houses_item">
+                  <div class="card" style="width: 20rem; height: 65rem">
+                    <img src="images/柴田莉奈さん.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">柴田莉奈</h5>
+                      <p style="font-size: 0.75rem">株式会社コンタス代表取締役CEO / ビジネス・ブレークスルー大学大学院生</p>
+                      <p style="font-size: 1.05rem">「『出会いは人生の財産』〜笑顔の連鎖が私の成長の源〜」</p>
+                      <br>
+                      <p class="card-text">
+                        人が一生の中で出会える人数はどのくらいでしょうか。「接点を持つ」という定義で考えた場合の有名な説では約3万人と言われています。世界人口80億に迫る中で、この数字は多いか少ないか。同じ時代に生まれてきた奇跡を考えると、人との出会いひとつひとつが尊く思えてきませんか？
+                        この世に生まれてきたこと自体が当たり前ではなく、奇跡の2乗、3乗、無限乗、どれだけ0を書き続けても足りないほどの素晴らしいことだと思う私が目指す先にある未来。それは、「自分がしてもらったように、いつか他の困っている人を笑顔にしたい」という想いの連鎖を創造し、助け合いが当たり前になる世界を創ること。「困っている人がいたら手を差し伸べたい」という気持ちがあってもどのように参加していいかわからない方々とも、SNSの普及により、加速度的に良い出会いが増えたことを実感しています。スマホやパソコン1台で世界中の共感者と繋がれる素晴らしい文明に感謝しながら、目の前に現れる奇跡の出会いも大切に日々成長している過程をお話しします。
+
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="houses_item">
+                  <div class="card" style="width: 20rem; height: 65rem">
+                    <img src="images/風間孝さん.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">風間孝</h5>
+                      <p style="font-size: 0.75rem">中京大学教育研究院教授</p>
+                      <p style="font-size: 1.05rem">「性の多様性と特権」</p>
+                      <br>
+                      <p class="card-text">
+                        私は大学で性の多様性を自分の問題として捉えてもらいたいと考え、授業をしています。性の多様性を自分の問題として捉えるには自分の持つ特権を知り、自覚することが鍵になります。特権とは、与えられた社会的条件が自分にとって有利であったために得られる、あらゆる恩恵を意味します。性的マジョリティは同性愛者やトランスジェンダーにとって当たり前にできないことを当たり前にできる特権を持っていますが、多くの人は自らのもつ特権に気づいていません。特権に無自覚な場合、LGBTQ＋の人々を苦しめることにもなります。マジョリティ集団に属しながら性の多様性を理解し、差別を是正するために行動する人のことをアライと呼びます。性的マジョリティは、偏見や差別に対して「もしかしてそうなの」と言われる恐怖を感じることなく声をあげられる特権をもっています。社会が変わっていくためには、LGBTQ＋とともにアライが特権を自覚した上で行動を起こすことが不可欠です。
+                      </p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="houses_item">
+                  <div class="card" style="width: 20rem; height: 50rem">
+                    <img src="images/出石桂子さん.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">出石桂子</h5>
+                      <p style="font-size: 0.75rem">元国連職員、2020年にノーベル平和賞を受賞した国連のWFPという機関で25年間勤め、本部イタリ、日本、インドネシア、
+                        アフガニスタン、キルギス共和国の副代表を歴任。訪れた国は60〜70ヶ国に及ぶ。国際ベストセラー作家、英語・ライフコーチ、ヒプノセラピスト。名古屋出身。</p>
+                      <p style="font-size: 1.05rem">「Come to the edge -夢を叶える!」</p>
+                      <br>
+                      <p class="card-text">あなたの叶えたい夢はなんですか？夢は叶うのです。
+                        Come to the edge – 心の声に従って恐れずに一歩踏み出したときに初めて自分の中に力があること、翼があったことに気づくのです。その時、頭の声が応援団に変わっていきます。
+                        崖っぷちに立って、恐れながら震えながらも自分の夢の方向へと飛んだ時、思いがけないような世界、人生が広がっていた経験を通してあなたへの招待状をお送りします。
+                        つながれるといいですね。少しでも私のトークが皆さんの心に響きますように。
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="houses_item">
+                  <div class="card" style="width: 20rem; height: 60rem">
+                    <img src="images/原田慎也さん.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">原田慎也</h5>
+                      <p style="font-size: 0.75rem">名古屋大学教育学部</p>
+                      <p style="font-size: 1.05rem">「You and I have some of potential disabilities.」
+                      </p>
+                      <br>
+                      <p class="card-text">
+                        名古屋大学医学部保健学科卒業後，現学部に学士編入学。理学療法士。医学部時代に『"障害"は個人的な要因から生じるのではなく，集団・組織・社会等の環境との相互作用によって生じる』という考えに共感。さらに病院実習の経験から，個人に対するリハビリテーション的介入がいくら有効だとしても，環境が"障害"を有する者を受容できなければ，個人へのリハビリテーション的介入は意味を成さなくなってしまうと感じる。この経験によって，自分の関心が社会で共有されている態度に移り，今は社会で生活する多くの人々を対象にした心理を主に学んでいる。
+                        　普段の日常であまり考えていないような事柄を敢えて取り上げ，そこに目を向け可視化させることによって，自分が見る世界と他人が見ている世界が異なることを感じて頂けたらと思います。名古屋に染まった関西人がお送りする笑いあり？スベリあり？のトークをお届けいたします。
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="houses_item">
+                  <div class="card" style="width: 20rem; height: 60rem;">
+                    <img src="images/安藤美玖さん.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">安藤美玖</h5>
+                      <p style="font-size: 0.75rem">株式会社ICORE代表取締役 / COO</p>
+                      <p style="font-size: 1.05rem">「すべてを失って気づいた、幸せに生きるために大切なこと」</p>
+                      <br>
+                      <p class="card-text">自分を最優先に生きれずに苦しんでいる人が、
+                        自分も周りも大切に、人生を明るく前に進めるように。
+                        人との繋がり、目に見えない確かな幸せがあることが当たり前だった幼少期。父の死を境に、形がない幸せより、確かにある正解や自立を追い求めて努力してきた。しかし、目標をクリアしても喜びや充足感を感じるのはほんの一瞬で、終わりのないレースを走り続ける辛さと違和感も感じていた。努力した先にあったのは
+                        “自立した自分” ではなく “孤立していく自分” だった—。
+                        人生をフルリセットして気づいた「幸せに生きるために大切なこと」
+                        父とのテニスノート、自身の経験から見えてきた人生を幸せに生きるために大切な４つの方程式についてお話をさせていただきます。
+                        幸せを追い求めて頑張りつつも、違和感や孤独を感じている人。人を信じること、愛することができなくて苦しんでいる人。自分を最優先に生きれずに悩んでいるたった一人のあなたへ、この想いが届きますように
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section>
+
+            </section>
+            <section   class="popular">
+              <div class="popular__header">
+                <h2 id="date-place" style=" color: #505050;/*文字色*/
+  padding: 0.5em;/*文字周りの余白*/
+  display: inline-block;/*おまじない*/
+  line-height: 1.3;/*行高*/
+  background: #dbebf8;/*背景色*/
+  vertical-align: middle;
+  border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/" class="main-title tween-animate-title">開催方法</h2>
+                <ul>
+                  <li style="font-size: 1.25rem; margin-top: 0.75rem"><strong>対面+オンライン</strong>でのハイブリット開催</li>
+                </ul>
+              </div>
+              <div style="margin-top: 2rem" class="popular__header">
+                <h2 style=" color: #505050;/*文字色*/
+  padding: 0.5em;/*文字周りの余白*/
+  display: inline-block;/*おまじない*/
+  line-height: 1.3;/*行高*/
+  background: #dbebf8;/*背景色*/
+  vertical-align: middle;
+  border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/" class="main-title tween-animate-title">場所</h2>
+                <ul>
+                  <li style="font-size: 1.25rem; margin-top: 0.75rem">対面：名古屋大学</li>
+                  <li style="font-size: 1.25rem; margin-top: 0.75rem">オンライン：YouTube、Zoom</li>
+                </ul>
+              </div>
+              <div style="margin-top: 2rem" class="popular__header">
+                <h2 style=" color: #505050;/*文字色*/
+                padding: 0.5em;/*文字周りの余白*/
+                display: inline-block;/*おまじない*/
+                line-height: 1.3;/*行高*/
+                background: #dbebf8;/*背景色*/
+                vertical-align: middle;
+                border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/" class="main-title tween-animate-title">時間</h2>
+                <ul>
+                  <li style="font-size: 1.25rem; margin-top: 0.75rem">13:00〜</li>
+                </ul>
+              </div>
+              <!-- <div style="margin: 5rem 15rem" class="box17">
+                <p style="font-size: 1.5rem">参加してくださる全ての方に、きてよかったなと思ってもらえるようなイベントにできるよう、運営一同精一杯頑張ります！
+                </p>
+              </div> -->
+              <div style="font-size: 2rem; text-align: center;" class="travel__btn item">
+                <button class="btn filled">お申し込みはこちらから</button>
+              </div>
+              <!-- <div class="popular__inner appear up">
+                <div class="popular__container">
+                  <div class="popular__item item">
+                    <div class="popular__img">
+                      <img src="images/image-p1.jpg" alt="" />
+                    </div>
+                    <div class="popular__title">パリ</div>
+                  </div>
+                  <div class="popular__item item">
+                    <div class="popular__img">
+                      <img src="images/image-p2.jpg" alt="" />
+                    </div>
+                    <div class="popular__title">ニューヨーク</div>
+                  </div>
+                  <div class="popular__item item">
+                    <div class="popular__img">
+                      <img src="images/image-p3.jpg" alt="" />
+                    </div>
+                    <div class="popular__title">香港</div>
+                  </div>
+                  <div class="popular__item item">
+                    <div class="popular__img">
+                      <img src="images/image-p4.jpg" alt="" />
+                    </div>
+                    <div class="popular__title">大阪</div>
+                  </div>
+                  <div class="popular__btn appear up">
+                    <button class="btn cover-3d item">
+                      <span>
+                        一覧から探す
+                      </span>
+                    </button>
+                  </div> -->
         </div>
-        <footer class="footer appear up">
-          <div class="logo item">
-            <img src="images/logo.svg" alt="" class="logo__img" />
-            <span class="logo__stay">Stay</span>
-            <span class="logo__world">World</span>
-          </div>
-          <nav class="footer__nav">
-            <ul class="footer__ul">
-              <li class="footer__li item"><a href="#">Service</a></li>
-              <li class="footer__li item"><a href="#">Contact</a></li>
-              <li class="footer__li item"><a href="#">Company</a></li>
-              <li class="footer__li item"><a href="#">Sitemap</a></li>
-            </ul>
-            <div class="footer__copyright item">
-              &copy; Code Mafia
-            </div>
-          </nav>
-        </footer>
       </div>
-      <nav class="mobile-menu">
-        <ul class="mobile-menu__main">
-          <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
-              <span class="main-title">Our Service</span>
-              <span class="sub-title">サービスについて</span>
-            </a>
-          </li>
-          <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
-              <span class="main-title">About Us</span>
-              <span class="sub-title">私たちについて</span>
-            </a>
-          </li>
-          <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="#">
-              <span class="main-title">Contact Us</span>
-              <span class="sub-title">コンタクト方法</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      </section>
+      </main>
+      <aside class="side right">
+        <div class="side__inner">
+          <span class="tween-animate-title">&copy;TEDxNagoyaU</span>
+        </div>
+      </aside>
     </div>
-    <script src="scripts/vendors/swiper.min.js"></script>
-    <script src="scripts/vendors/TweenMax.min.js"></script>
-    <script src="scripts/vendors/scroll-polyfill.js"></script>
-    <script src="scripts/libs/scroll.js"></script>
-    <script src="scripts/libs/text-animation.js"></script>
-    <script src="scripts/libs/hero-slider.js"></script>
-    <script src="scripts/libs/mobile-menu.js"></script>
-    <script src="scripts/main.js"></script>
-  </body>
+  </div>
+  <footer class="footer appear up">
+    <div style="text-align: center">
+    <p>メール : info@tedxnagoyau.com</p>
+    <p><a href="https://twitter.com/TEDxNagoyaU?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>　　<a href="https://www.instagram.com/tedxnagoyau/">Instagram</a></p>
+
+    </div>
+    <div style="text-align: center;">
+      &copy; TEDxNagoyaU
+    </div>
+  </footer>
+  </div>
+  <nav class="mobile-menu">
+    <ul class="mobile-menu__main">
+      <li class="mobile-menu__item">
+        <a class="mobile-menu__link" href="#speaker">
+          <span class="main-title">スピーカー情報</span>
+        </a>
+      </li>
+      <li class="mobile-menu__item">
+        <a class="mobile-menu__link" href="#date_place">
+          <span class="main-title">開催日時・場所</span>
+        </a>
+      </li>
+      <li class="mobile-menu__item">
+        <a class="mobile-menu__link" href="#">
+          <span class="main-title">お申し込みはこちらから</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  </div>
+  <script src="scripts/vendors/swiper.min.js"></script>
+  <script src="scripts/vendors/TweenMax.min.js"></script>
+  <script src="scripts/vendors/scroll-polyfill.js"></script>
+  <script src="scripts/libs/scroll.js"></script>
+  <script src="scripts/libs/text-animation.js"></script>
+  <script src="scripts/libs/hero-slider.js"></script>
+  <script src="scripts/libs/mobile-menu.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
 </html>
