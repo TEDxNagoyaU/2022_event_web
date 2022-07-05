@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>協賛企業一覧</title>
+    <meta name="description" content="This site is TEDxNagoyaU2022 main event site.">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/loader.css">
+    <script src="scripts/vendors/pace.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
@@ -13,353 +17,369 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Document</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__inner appear up">
-          <div class="logo item">
-            <img src="images/logo.png" alt="" />
-          </div>
-          <nav class="header__nav">
-            <ul class="header__ul">
-              <li class="header__li item"><a href="index.html#speaker">スピーカー情報</a></li>
-              <li class="header__li item"><a href="index.html#performer">パフォーマー情報</a></li>
-              <li class="header__li item"><a href="index.html#date-place">開催日時・場所</a></li>
-              <li class="header__li item"><a href="corp_intro.html">協賛企業</a></li>
-            </ul>
-          </nav>
-          <button class="mobile-menu__btn">
-            <!-- <span></span>
+    <div id="global-container">
+        <div id="container">
+            <div class="mobile-menu__cover"></div>
+            <div class="nav-trigger"></div>
+            <header class="header">
+                <div class="header__inner appear up">
+                    <div class="logo item">
+                        <img src="images/logo.png" alt="" />
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__ul">
+                            <li class="header__li item"><a href="#speaker">スピーカー情報</a></li>
+                            <li class="header__li item"><a href="#performer">パフォーマー情報</a></li>
+                            <li class="header__li item"><a href="#date-place">開催日時・場所</a></li>
+                            <li class="header__li item"><a href="corp_intro.html">協賛企業</a></li>
+                        </ul>
+                    </nav>
+                    <button class="mobile-menu__btn">
+                        <!-- <span></span>
             <span></span>
             <span></span> -->
-          </button>
-        </div>
-      </header>
-    <div class="bl_media_container">
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/大同特殊鋼業.png" alt=""></p>
-                <h3>大同特殊鋼業株式会社</h3>
-                <br>
-                <p>大同特殊鋼は素材の力で様々な産業を支える世界最大級の特殊鋼専業メーカーです。
-                    熱に強い、サビにくいなど様々な機能を持つ特殊鋼は、ボールペンの先から、スマホ、パソコン、自動車、航空機など皆さんの身近なところで活躍しています。
-                    TEDの目的や精神には当社の経営理念に通じるものがあり、主催・運営を担う学生やスピーカーの皆さんの熱意に賛同して２０１５年から協賛を続けてきました。
-                    大同特殊鋼はTEDxNagoyaUの熱意を応援します。
-                    <br>
-                    <br>
-                    <a href="https://www.daido.co.jp/">ホームページはこちら</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/AZAPA.png" alt=""></p>
-                <h3>AZAPA</h3>
-                <br>
-                <p>自動車の制御開発で培ってきたノウハウを生かし、エネルギーとモビリティの融合による社会システムのアップデート（経済循環）の実現を目指しています。
-                    <br>
-                    <br>
-                    <a href="https://azapa.co.jp/">
-                        ホームページはこちら</a>"
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/NEOREX.png" alt=""></p>
-                <h3>ネオレックス</h3>
-                <br>
-                <p>ネオレックスは、名古屋のITベンチャーです。
+                    </button>
+                </div>
+            </header>
+            <div class="bl_media_container">
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/大同特殊鋼業.png" alt=""></p>
+                        <h3>大同特殊鋼業株式会社</h3>
+                        <br>
+                        <p>大同特殊鋼は素材の力で様々な産業を支える世界最大級の特殊鋼専業メーカーです。
+                            熱に強い、サビにくいなど様々な機能を持つ特殊鋼は、ボールペンの先から、スマホ、パソコン、自動車、航空機など皆さんの身近なところで活躍しています。
+                            TEDの目的や精神には当社の経営理念に通じるものがあり、主催・運営を担う学生やスピーカーの皆さんの熱意に賛同して２０１５年から協賛を続けてきました。
+                            大同特殊鋼はTEDxNagoyaUの熱意を応援します。
+                            <br>
+                            <br>
+                            <a href="https://www.daido.co.jp/">ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/AZAPA.png" alt=""></p>
+                        <h3>AZAPA</h3>
+                        <br>
+                        <p>自動車の制御開発で培ってきたノウハウを生かし、エネルギーとモビリティの融合による社会システムのアップデート（経済循環）の実現を目指しています。
+                            <br>
+                            <br>
+                            <a href="https://azapa.co.jp/">
+                                ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/NEOREX.png" alt=""></p>
+                        <h3>ネオレックス</h3>
+                        <br>
+                        <p>ネオレックスは、名古屋のITベンチャーです。
 
-                    人を幸せにするIT企業、マネされる会社になることを目指し、自社企画・自社開発の製品を提供しています。
+                            人を幸せにするIT企業、マネされる会社になることを目指し、自社企画・自社開発の製品を提供しています。
 
-                    大企業向けクラウド勤怠管理システムでは、8年連続で国内トップシェア。「日本でいちばん大切にしたい会社」受賞企業。
+                            大企業向けクラウド勤怠管理システムでは、8年連続で国内トップシェア。「日本でいちばん大切にしたい会社」受賞企業。
 
-                    名大出身者も多く在籍するネオレックスは、TEDxNagoyaUの理念・テーマに共感し、皆様の活動を応援しています。
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/プロトコーポレーション.png" alt=""></p>
-                <h3>プロトコーポレーション</h3>
-                <br>
-                <p>CODE BASE NAGOYAは、「名古屋をギガ・シティに」という目的のもと株式会社プロトコーポレーションが開設した、ベンチャー企業やＩＴエンジニア、学生が無料で利用できる交流スペースです。
-                    これからITスキルを身に付けたい方やすでにエンジニアとして活動されている方が集い、イノベーションを生み出せるような場所として、IT系コミュニティさん主催のワークショップのほか学生向けの無料プログラミング教室等を開催しています。
-                    <a href="https://codebase.proto-g.co.jp/">ホームページはこちら</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/TIGERGYROSCOPE.png" alt=""></p>
-                <h3>TIGER Gyroscope</h3>
-                <br>
-                <p>タイガージャイロスコープは、日本の町工場の技術力で作り上げた精巧なメカニズム＋ハイクオリティの、オモチャの域を超えた新機軸のジャイロスコープ「地球ジャイロ」を手がけています。
-                    Our Product: Japanese-made Gyroscope "Chikyu Gyro
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/NEXTRA.png" alt=""></p>
-                <h3>NEXTRA</h3>
-                <br>
-                <p>私達キャリアラボbyNEXTRAは、「すべての人の挑戦が実現する社会」を目指し、やりたいことを見つけ、仲間と共に実現していけるコミュニティを運営しております。進路について困ったときは気軽にご相談ください！
-                    <br><br><a href="https://thisisme.studio.design">ホームページはこちら</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/サーラグループ.png
+                            名大出身者も多く在籍するネオレックスは、TEDxNagoyaUの理念・テーマに共感し、皆様の活動を応援しています。
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/プロトコーポレーション.png" alt=""></p>
+                        <h3>プロトコーポレーション</h3>
+                        <br>
+                        <p>CODE BASE
+                            NAGOYAは、「名古屋をギガ・シティに」という目的のもと株式会社プロトコーポレーションが開設した、ベンチャー企業やＩＴエンジニア、学生が無料で利用できる交流スペースです。
+                            これからITスキルを身に付けたい方やすでにエンジニアとして活動されている方が集い、イノベーションを生み出せるような場所として、IT系コミュニティさん主催のワークショップのほか学生向けの無料プログラミング教室等を開催しています。
+                            <a href="https://codebase.proto-g.co.jp/">ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/TIGERGYROSCOPE.png" alt=""></p>
+                        <h3>TIGER Gyroscope</h3>
+                        <br>
+                        <p>タイガージャイロスコープは、日本の町工場の技術力で作り上げた精巧なメカニズム＋ハイクオリティの、オモチャの域を超えた新機軸のジャイロスコープ「地球ジャイロ」を手がけています。
+                            Our Product: Japanese-made Gyroscope "Chikyu Gyro
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/NEXTRA.png" alt=""></p>
+                        <h3>NEXTRA</h3>
+                        <br>
+                        <p>私達キャリアラボbyNEXTRAは、「すべての人の挑戦が実現する社会」を目指し、やりたいことを見つけ、仲間と共に実現していけるコミュニティを運営しております。進路について困ったときは気軽にご相談ください！
+                            <br><br><a href="https://thisisme.studio.design">ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/サーラグループ.png
                     " alt=""></p>
-                <h3>サーラグループ</h3>
-                <br>
-                <p>1909年の創業以来、エネルギー事業を基盤として、建設土木・住まい・不動産・輸入車販売・物流・システム開発・保険など、
-                    街や暮らしに関わるさまざまな事業を展開してきました。ＳＡＬＡ(サーラ：生活空間をより美しく快適に）をコンセプトに、愛知県東部や静岡県西部を中心に地域密着型のサービスを提供しています。
-                    今後もお客さまの生活に不可欠な商品・サービスをグループで創造・提供し、新たな１００年を目指します。<br><br>
-                    <a href="https://www.sala.jp/ja/index.html
+                        <h3>サーラグループ</h3>
+                        <br>
+                        <p>1909年の創業以来、エネルギー事業を基盤として、建設土木・住まい・不動産・輸入車販売・物流・システム開発・保険など、
+                            街や暮らしに関わるさまざまな事業を展開してきました。ＳＡＬＡ(サーラ：生活空間をより美しく快適に）をコンセプトに、愛知県東部や静岡県西部を中心に地域密着型のサービスを提供しています。
+                            今後もお客さまの生活に不可欠な商品・サービスをグループで創造・提供し、新たな１００年を目指します。<br><br>
+                            <a href="https://www.sala.jp/ja/index.html
 ">ホームページはこちら</a>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/脳の学校.png" alt=""></p>
-                <h3>脳の学校</h3>
-                <br>
-                <p>胎児から超高齢者までの脳を研究し、「脳をいくつになっても成長させる」ための健康脳医療事業を行っている会社です。脳の健康に役立つ研究結果や情報を産地直送型の脳情報として発信し普及に努め、人それぞれが脳の正しい知見をベースにした人生観や文化を創造することを目指しています。
-                    <br><br><a href="https://www.nonogakko.com/">ホームページはこちら</a>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/日本特殊陶業.png" alt=""></p>
-                <h3>日本特殊陶業</h3>
-                <br>
-                <p>日本特殊陶業は、独自のセラミック技術で自動車用、情報通信用等、社会になくてはならない様々な製品を作ってきた会社です。現在では「セラミックスのその先へ、想像のその先へ」のビジョンを掲げ、社会的課題を解決する為の事業創出に本気で取り組んでいます。
-                    "VUCA"が叫ばれるこれからの時代、我々は何を意識して生き、働いていくべきでしょうか？TEDx NagoyaUに関わる皆さんのアイデアを聞かせて下さい！
-                    <br><br><a href="https://www.ngkntk.co.jp/">会社ウェブサイト</a><br><a
-                        href="https://ngkntkventure.com/ja">ベンチャーラボウェブサイト</a><br><a
-                        href="https://www.facebook.com/venturelabngksparkplug.jpn">
-                        ベンチャーラボFacebook</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/好生館プロジェクト.png
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/脳の学校.png" alt=""></p>
+                        <h3>脳の学校</h3>
+                        <br>
+                        <p>胎児から超高齢者までの脳を研究し、「脳をいくつになっても成長させる」ための健康脳医療事業を行っている会社です。脳の健康に役立つ研究結果や情報を産地直送型の脳情報として発信し普及に努め、人それぞれが脳の正しい知見をベースにした人生観や文化を創造することを目指しています。
+                            <br><br><a href="https://www.nonogakko.com/">ホームページはこちら</a>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/日本特殊陶業.png" alt=""></p>
+                        <h3>日本特殊陶業</h3>
+                        <br>
+                        <p>日本特殊陶業は、独自のセラミック技術で自動車用、情報通信用等、社会になくてはならない様々な製品を作ってきた会社です。現在では「セラミックスのその先へ、想像のその先へ」のビジョンを掲げ、社会的課題を解決する為の事業創出に本気で取り組んでいます。
+                            "VUCA"が叫ばれるこれからの時代、我々は何を意識して生き、働いていくべきでしょうか？TEDx NagoyaUに関わる皆さんのアイデアを聞かせて下さい！
+                            <br><br><a href="https://www.ngkntk.co.jp/">会社ウェブサイト</a><br><a
+                                href="https://ngkntkventure.com/ja">ベンチャーラボウェブサイト</a><br><a
+                                href="https://www.facebook.com/venturelabngksparkplug.jpn">
+                                ベンチャーラボFacebook</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/好生館プロジェクト.png
                     " alt=""></p>
-                <h3>好生館プロジェクト</h3>
-                <br>
-                <p>2019年に南山大学の学生により立ち上げられた学生ベンチャー企業です。
-                    課題解決型インターンシップのコーディネート事業を通じて、学生のキャリアデザインや成長を支援しております。
-                    学生の成長を後押しすることはもちろん、若者の活力や豊かな発想を活かすことで企業の活性化や地域貢献につなげる取り組みも行っています。
-                    好生館プロジェクトはTEDxを始め、学生や若者のチャレンジを応援しています。
-                </p>
-            </div>
-        </div>
+                        <h3>好生館プロジェクト</h3>
+                        <br>
+                        <p>2019年に南山大学の学生により立ち上げられた学生ベンチャー企業です。
+                            課題解決型インターンシップのコーディネート事業を通じて、学生のキャリアデザインや成長を支援しております。
+                            学生の成長を後押しすることはもちろん、若者の活力や豊かな発想を活かすことで企業の活性化や地域貢献につなげる取り組みも行っています。
+                            好生館プロジェクトはTEDxを始め、学生や若者のチャレンジを応援しています。
+                        </p>
+                    </div>
+                </div>
 
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/ジェイ・ブロード.png" alt=""></p>
-                <h3>ジェイ・ブロード</h3>
-                <br>
-                <p>「企業に良い人材を、人々にやりがいのある仕事を」。
-                    私たちは採用における広告・戦略の就職コンサルティング情報会社として、あらゆる採用課題に挑戦し、問題解決を行います。ミスマッチのない【確かな絆】をプロデュースするというミッションのもと、企業・大学・学生3者の【真実の声】に耳を傾け、“この世でたった一つ”オンリーワンビジネスを提案していきます。
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/innovst.png" alt=""></p>
-                <h3>イノベスト</h3>
-                <br>
-                <p>“Drew your Mind”を企業理念に、すべての人が自分の考えを描き出せる社会の実現を目指します。
-                    おもに大学・高校に対して世界基準のリーダーシップを教育プログラムとして導入する支援を行います。また、学校の「もったいない」をなくすべく教学・運営の支援業務を、企業に対して大学を活用した社会連携支援を行っています。
-                    <br><br><a href="http://innovst.com
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/ジェイ・ブロード.png" alt=""></p>
+                        <h3>ジェイ・ブロード</h3>
+                        <br>
+                        <p>「企業に良い人材を、人々にやりがいのある仕事を」。
+                            私たちは採用における広告・戦略の就職コンサルティング情報会社として、あらゆる採用課題に挑戦し、問題解決を行います。ミスマッチのない【確かな絆】をプロデュースするというミッションのもと、企業・大学・学生3者の【真実の声】に耳を傾け、“この世でたった一つ”オンリーワンビジネスを提案していきます。
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/innovst.png" alt=""></p>
+                        <h3>イノベスト</h3>
+                        <br>
+                        <p>“Drew your Mind”を企業理念に、すべての人が自分の考えを描き出せる社会の実現を目指します。
+                            おもに大学・高校に対して世界基準のリーダーシップを教育プログラムとして導入する支援を行います。また、学校の「もったいない」をなくすべく教学・運営の支援業務を、企業に対して大学を活用した社会連携支援を行っています。
+                            <br><br><a href="http://innovst.com
 ">ホームページはこちら</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/Tongali.png" alt=""></p>
-                <h3>Tongali</h3>
-                <br>
-                <p>Tongaliは、東海地区18大学によるアントレプレナー育成プラットフォームです。学部生・大学院生・ポストドクター・教職員・卒業生を対象に、次世代の起業家を育成・支援する多面的なプログラムを行っています。メンタリング、活動拠点の提供、活動資金の援助、起業に関する情報やノウハウを得るためのイベントの開催など多岐に亘り、起業家教育のみならず、準備から起業後の事業展開までをシームレスにサポートします！
-                    <br><br><a href="https://tongali.net/">ホームページはこちら</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/G-net.png" alt=""></p>
-                <h3>G-net</h3>
-                <br>
-                <p>岐阜を拠点に、地域の中小企業の経営革新と担い手となる若者の人材育成を通じた地域活性に取り組むNPO。大学生と地域の魅力ある中小企業を繋げる実践型インターンシップ事業や、右腕人材に特化した就職採用支援事業、愛する地域と共感する事業で選ぶプロボノ・兼業マッチング事業「ふるさと兼業」を手掛ける。また、オンライン上で地域と社会と繋がることができるwebキャンパス「つながるキャンパス」を運営中。
-                    <br><br><a href="https://gifist.net/">https://gifist.net/</a>
-                    <br><a href="https://tsunacam.net/">https://tsunacam.net/</a>
-                    <br><a href="https://furusatokengyo.jp/">https://furusatokengyo.jp/</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/jst.png" alt=""></p>
-                <h3>JST</h3>
-                <br>
-                <p>『旅は学びの原点』。感受性豊かな若いうちに新しいことにどんどん挑戦してほしい。旅を通じた“学び”の素晴らしさを伝え続けるJSTは皆さんの熱意を応援します
-                    <br><br><a href="https://www.jstgroup.com/">ホームページはこちら</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/春日井製菓.png" alt=""></p>
-                <h3>春日井製菓</h3>
-                <br>
-                <p>1928年に名古屋市西区で創業した、今年94歳の菓子メーカーです。
-                    今回ご協賛したぶどう糖95％ラムネ「スイッチONタブレット」を始め、「つぶグミ」「グリーン豆」「キシリクリスタル」「花のくちづけ」などをつくっています。
-                    TEDxNagoyaUに関わる皆さんが、アイデアを生み出す時や広げていく時に、私たちのお菓子がお役に立てたら嬉しいです。
-                    <br><br><a href="https://www.kasugai.co.jp/">ホームページはこちら</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/Peatix.png" alt=""></p>
-                <h3>Peatix</h3>
-                <br>
-                <p>イベント・コミュニティ運営を支援するピーティックスは、TEDxのような素晴らしくかつチャレンジングなイベント運営に取り組む学生を応援しています。
-                    <br><br><a href=" https://peatix.com/">ホームページはこちら</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/カヌレとアイス.png" alt=""></p>
-                <h3>カヌレとアイス</h3>
-                <br>
-                <p>私たちは「社会と人にやさしい“幸せ”を育む」をコンセプトに
-                    スイーツを通してSDGsの応援や社会貢献活動に取り組んでおります。
-                    例えば、売上の一部で寄付活動を行なっていますが、名古屋（大須）や東京（吉祥寺）の直営店では、その支援先もお客様に選んで頂いております。
-                    やさしさとこだわりが詰まった「至福のカヌレ」は、工房でひとつひとつ丁寧に焼き上げ、外は香ばしく中はもっちりとした至福の食感と美味しさです。
-                    <br><br><a href="https://www.caneleandicecream.com/">ホームページはこちら</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/桝塚味噌.png" alt=""></p>
-                <h3>合資会社野田味噌商店</h3>
-                <br>
-                <p>桝塚味噌のブランド名で親しまれている合資会社野田味噌商店です。
-                    日頃、全国の大学生協食堂の「お味噌汁」や「月見みそかつ丼」で
-                    大変お世話になっております。
-                    また、社長　野田清衛は２０１６年TEDｘNagoyaUのｓｐｅａｋｅｒです。
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/Tongali.png" alt=""></p>
+                        <h3>Tongali</h3>
+                        <br>
+                        <p>Tongaliは、東海地区18大学によるアントレプレナー育成プラットフォームです。学部生・大学院生・ポストドクター・教職員・卒業生を対象に、次世代の起業家を育成・支援する多面的なプログラムを行っています。メンタリング、活動拠点の提供、活動資金の援助、起業に関する情報やノウハウを得るためのイベントの開催など多岐に亘り、起業家教育のみならず、準備から起業後の事業展開までをシームレスにサポートします！
+                            <br><br><a href="https://tongali.net/">ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/G-net.png" alt=""></p>
+                        <h3>G-net</h3>
+                        <br>
+                        <p>岐阜を拠点に、地域の中小企業の経営革新と担い手となる若者の人材育成を通じた地域活性に取り組むNPO。大学生と地域の魅力ある中小企業を繋げる実践型インターンシップ事業や、右腕人材に特化した就職採用支援事業、愛する地域と共感する事業で選ぶプロボノ・兼業マッチング事業「ふるさと兼業」を手掛ける。また、オンライン上で地域と社会と繋がることができるwebキャンパス「つながるキャンパス」を運営中。
+                            <br><br><a href="https://gifist.net/">https://gifist.net/</a>
+                            <br><a href="https://tsunacam.net/">https://tsunacam.net/</a>
+                            <br><a href="https://furusatokengyo.jp/">https://furusatokengyo.jp/</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/jst.png" alt=""></p>
+                        <h3>JST</h3>
+                        <br>
+                        <p>『旅は学びの原点』。感受性豊かな若いうちに新しいことにどんどん挑戦してほしい。旅を通じた“学び”の素晴らしさを伝え続けるJSTは皆さんの熱意を応援します
+                            <br><br><a href="https://www.jstgroup.com/">ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/春日井製菓.png" alt=""></p>
+                        <h3>春日井製菓</h3>
+                        <br>
+                        <p>1928年に名古屋市西区で創業した、今年94歳の菓子メーカーです。
+                            今回ご協賛したぶどう糖95％ラムネ「スイッチONタブレット」を始め、「つぶグミ」「グリーン豆」「キシリクリスタル」「花のくちづけ」などをつくっています。
+                            TEDxNagoyaUに関わる皆さんが、アイデアを生み出す時や広げていく時に、私たちのお菓子がお役に立てたら嬉しいです。
+                            <br><br><a href="https://www.kasugai.co.jp/">ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/Peatix.png" alt=""></p>
+                        <h3>Peatix</h3>
+                        <br>
+                        <p>イベント・コミュニティ運営を支援するピーティックスは、TEDxのような素晴らしくかつチャレンジングなイベント運営に取り組む学生を応援しています。
+                            <br><br><a href=" https://peatix.com/">ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/カヌレとアイス.png" alt=""></p>
+                        <h3>カヌレとアイス</h3>
+                        <br>
+                        <p>私たちは「社会と人にやさしい“幸せ”を育む」をコンセプトに
+                            スイーツを通してSDGsの応援や社会貢献活動に取り組んでおります。
+                            例えば、売上の一部で寄付活動を行なっていますが、名古屋（大須）や東京（吉祥寺）の直営店では、その支援先もお客様に選んで頂いております。
+                            やさしさとこだわりが詰まった「至福のカヌレ」は、工房でひとつひとつ丁寧に焼き上げ、外は香ばしく中はもっちりとした至福の食感と美味しさです。
+                            <br><br><a href="https://www.caneleandicecream.com/">ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/桝塚味噌.png" alt=""></p>
+                        <h3>合資会社野田味噌商店</h3>
+                        <br>
+                        <p>桝塚味噌のブランド名で親しまれている合資会社野田味噌商店です。
+                            日頃、全国の大学生協食堂の「お味噌汁」や「月見みそかつ丼」で
+                            大変お世話になっております。
+                            また、社長　野田清衛は２０１６年TEDｘNagoyaUのｓｐｅａｋｅｒです。
 
-                    弊社は地元に根ざした企業として地域の食文化を守り、醸造・発酵技術を
-                    通して世界に食を伝え、天然醸造の味噌蔵として日本一の味噌屋を目指しております。
-                    是非、一杯のお味噌汁から、心なごむ幸せな気分を感じていただけましたら幸いです。
-                </p>
+                            弊社は地元に根ざした企業として地域の食文化を守り、醸造・発酵技術を
+                            通して世界に食を伝え、天然醸造の味噌蔵として日本一の味噌屋を目指しております。
+                            是非、一杯のお味噌汁から、心なごむ幸せな気分を感じていただけましたら幸いです。
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/LOTTE.png" alt=""></p>
+                        <h3>LOTTE</h3>
+                        <br>
+                        <p>ロッテはみなさまから愛され、信頼される、よりよい製品やサービスを提供し、
+                            世界中の人々の豊かなくらしに貢献します。
+                            <br><br><a href="https://www.lotte.co.jp/corporate/">ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/ZEKK.png" alt=""></p>
+                        <h3>ZEKK</h3>
+                        <br>
+                        <p>弊社はバーチャル空間で活躍するエンターテイナーの創出、また彼らのクリエイターエコノミーを加速する機会の提供を行っている。（VTuber・Vライバーをプロデュースし、エンターテイナー・クリエイターとして成長し生きていけるようお仕事を作っている）
+                            TEDxの特徴である、「コミュニティが熱量を持って持続的に広がっていく」様子は非常に興味深く、感銘を受けて協賛に至りました。
+                            TEDxNagoyaUに関わる皆さんを応援します。
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/青柳総本家.png" alt=""></p>
+                        <h3>青柳総本家</h3>
+                        <br>
+                        <p>外部環境が大きく変わる中、今、私共にも大きな変化が訪れています。会社のロゴである「柳に飛びつこうとするカエル」は「常に挑戦し続ける会社でありたい」という想いが込められています。例えば、地元の学生さん達と共同開発した商品の販売やマラソンの給食で商品提供したりと、これまでにない取組みも行っています。
+                            今後も老舗という看板に胡坐をかくことなく、お客様に喜んで頂く為の活動に注力していきたいと考えております。<br><br><a
+                                href=https://www.aoyagiuirou.co.jp/">ホームページはこちら</a></p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/大同ITソリューションズ.png" alt=""></p>
+                        <h3>大同ITソリューションズ</h3>
+                        <br>
+                        <p>質の高いITソリューション・ビジネスソリューションを提供し、21世紀の情報ネットワーク社会に貢献していきます。TEDxNagoyaUの主催・運営に関わる皆さんの熱意を我々は応援します。
+                            <br><br><a href="https://www.daido-its.co.jp/">ホームページはこちら</a><br>
+                            <a href="https://dits-recruit.com/">採用サイト</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/新規開拓.png" alt=""></p>
+                        <h3>株式会社新規開拓</h3>
+                        <br>
+                        <p>
+                            <a href="新規開拓＿interview.html">インタービュー記事はこちらから</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/Acompany.png" alt=""></p>
+                        <h3>Acompany</h3>
+                        <br>
+                        <p>暗号化したままデータを分析する秘密計算技術を容易に使用可能な「QuickMPC」を提供しています。「なめらかなデータ活用社会」を実現するというビジョンを掲げ、CNBベンチャー大賞・中部経済産業局長賞をはじめ、多くのプログラムにて受賞しています。
+                            名古屋大学発ベンチャー・名古屋工業大学発ベンチャーの称号を持ち、代表の高橋はTEDxNagoyaU2019Speakerでもあります。<br><br><a
+                                href="https://www.ies.jp/iesweb/">ホームページはこちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/アビーム.png" alt=""></p>
+                        <h3>アビームシステムズ</h3>
+                        <br>
+                        <p>アビームシステムズは『Real
+                            Partner』として、お客様のビジネス成功に向け、ご要望に真摯に向き合い、共にチャレンジし続けます。私たちは、TEDxNagoyaUの主催・運営にチャレンジする学生の皆さんを応援しています。<br><br><a
+                                href=" https://www.abeam-s.com/">ホームページはこちら</a></p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/SNAPSHOT.png" alt=""></p>
+                        <h3>SNAPSHOT</h3>
+                        <br>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/IES.png" alt=""></p>
+                        <h3>イエス</h3>
+                        <br>
+                        <p>私達イエスは「ソリューション・デベロッパー」として、お客様の様々な問題解決のご提案をさせて頂いております。 広い視野で最適解を求め日々邁進しております。
+                            「困ったときのイエス頼み」お気軽にご相談ください。<br><br><a href="https://www.ies.jp/iesweb/">ホームページはこちら</a>
+                    </div>
+                </div>
+                <div class=" bl_media_itemWrapper">
+                    <div class="bl_media_item">
+                        <p class="img"><img src="corp_logo/リゾートトラスト.png" alt=""></p>
+                        <h3>リゾートトラスト</h3>
+                        <br>
+                        <p></p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/LOTTE.png" alt=""></p>
-                <h3>LOTTE</h3>
-                <br>
-                <p>ロッテはみなさまから愛され、信頼される、よりよい製品やサービスを提供し、
-                    世界中の人々の豊かなくらしに貢献します。
-                    <br><br><a href="https://www.lotte.co.jp/corporate/">ホームページはこちら</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/ZEKK.png" alt=""></p>
-                <h3>ZEKK</h3>
-                <br>
-                <p>弊社はバーチャル空間で活躍するエンターテイナーの創出、また彼らのクリエイターエコノミーを加速する機会の提供を行っている。（VTuber・Vライバーをプロデュースし、エンターテイナー・クリエイターとして成長し生きていけるようお仕事を作っている）
-                    TEDxの特徴である、「コミュニティが熱量を持って持続的に広がっていく」様子は非常に興味深く、感銘を受けて協賛に至りました。
-                    TEDxNagoyaUに関わる皆さんを応援します。
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/青柳総本家.png" alt=""></p>
-                <h3>青柳総本家</h3>
-                <br>
-                <p>外部環境が大きく変わる中、今、私共にも大きな変化が訪れています。会社のロゴである「柳に飛びつこうとするカエル」は「常に挑戦し続ける会社でありたい」という想いが込められています。例えば、地元の学生さん達と共同開発した商品の販売やマラソンの給食で商品提供したりと、これまでにない取組みも行っています。
-                    今後も老舗という看板に胡坐をかくことなく、お客様に喜んで頂く為の活動に注力していきたいと考えております。<br><br><a
-                        href=https://www.aoyagiuirou.co.jp/">ホームページはこちら</a></p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/大同ITソリューションズ.png" alt=""></p>
-                <h3>大同ITソリューションズ</h3>
-                <br>
-                <p>質の高いITソリューション・ビジネスソリューションを提供し、21世紀の情報ネットワーク社会に貢献していきます。TEDxNagoyaUの主催・運営に関わる皆さんの熱意を我々は応援します。
-                    <br><br><a href="https://www.daido-its.co.jp/">ホームページはこちら</a><br>
-                    <a href="https://dits-recruit.com/">採用サイト</a>
-                </p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/新規開拓.png" alt=""></p>
-                <h3>株式会社新規開拓</h3>
-                <br>
-                <p></p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/Acompany.png" alt=""></p>
-                <h3>Acompany</h3>
-                <br>
-                <p></p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/アビーム.png" alt=""></p>
-                <h3>アビームシステムズ</h3>
-                <br>
-                <p></p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/SNAPSHOT.png" alt=""></p>
-                <h3>SNAPSHOT</h3>
-                <br>
-                <p></p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/IES.png" alt=""></p>
-                <h3>イエス</h3>
-                <br>
-                <p></p>
-            </div>
-        </div>
-        <div class="bl_media_itemWrapper">
-            <div class="bl_media_item">
-                <p class="img"><img src="corp_logo/リゾートトラスト.png" alt=""></p>
-                <h3>リゾートトラスト</h3>
-                <br>
-                <p></p>
-            </div>
+            <center><a href="/index.html">もどる</a></center>
+            <!--これ非推奨なのは分かってるけれども・・・-->
         </div>
     </div>
-    <center><a href="/index.html">もどる</a></center><!--これ非推奨なのは分かってるけれども・・・-->
+
 </body>
 
 </html>
