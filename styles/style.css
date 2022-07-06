@@ -1667,7 +1667,7 @@ img {
 }
 
 .centering_parent {
-    padding:100px;              /* 余白指定 */
+    padding:50px;              /* 余白指定 */
     /* text-align:  center;        中央寄せ */
     height: 100px;              /* 高さ指定 */
 }
