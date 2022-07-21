@@ -1641,7 +1641,7 @@ img {
   flex-wrap: wrap;
   margin: calc(-30px / 2);
   padding: 30px;
-  margin: 50px
+  margin: 50px;
 }
 .bl_media_itemWrapper {
   width: calc(100% / 3 - 30px);
@@ -1651,7 +1651,7 @@ img {
   outline: 1px solid rgb(135, 134, 134);
   font-size: 1.5vw;
   padding: 15px;
-  font-family: "Helvetica","ヒラギノ丸ゴ ProN";
+  font-family: "Helvetica", "ヒラギノ丸ゴ ProN";
 }
 /* タブレット　2カラム */
 @media screen and (max-width: 1024px) {
@@ -1667,7 +1667,16 @@ img {
 }
 
 .centering_parent {
-    padding:50px;              /* 余白指定 */
-    /* text-align:  center;        中央寄せ */
-    height: 100px;              /* 高さ指定 */
+  padding: 50px; /* 余白指定 */
+  /* text-align:  center;        中央寄せ */
+  height: 100px; /* 高さ指定 */
+}
+
+.centering_parent img {
+  width: 100%; /* bodyの幅に対する割合 */
+  max-width: 800px;
+}
+
+.img_parent {
+  text-align: center;
 }
